@@ -15,12 +15,14 @@ Welcome to my personal journey of mastering **Data Structures and Algorithms (DS
 
 ## 📚 Repository Structure
 
-./data_structures/ # Implementations of core data structures
-./algorithms/ # Classic algorithm categories
-./problems/ # Solved problems (categorized by difficulty)
-./go.mod # Go module definition
-./README.md # You’re reading it :)
-./.github/workflows/ # Optional GitHub Actions for test automation
+```bash
+DSA
+├── README.md
+├── algorithms
+├── data-structures
+├── go.mod
+└── problems
+```
 
 ---
 
@@ -28,7 +30,7 @@ Welcome to my personal journey of mastering **Data Structures and Algorithms (DS
 
 | Week | Focus                         | Status |
 | ---- | ----------------------------- | ------ |
-| 1    | Arrays, Searching             | ✅     |
+| 1    | Arrays, Searching             | ⏳     |
 | 2    | Linked Lists, Recursion       | ⏳     |
 | 3    | Stacks, Queues, Sorting       | ⏳     |
 | 4    | Trees, Graphs, BFS/DFS        | ⏳     |
@@ -52,14 +54,14 @@ Each learning unit is also published as an article on selected platforms:
 1. Clone the repository:
 
 ```bash
-    git clone https://github.com/GulomjonBakirov/DSA.git
+git clone https://github.com/GulomjonBakirov/DSA.git
 ```
 
 2. Navigate and run:
 
 ```bash
-    cd DSA
-    go run data_structures/ #etc with which one do you need
+cd DSA
+go run data_structures/ #etc with which one do you need
 ```
 
 ---
